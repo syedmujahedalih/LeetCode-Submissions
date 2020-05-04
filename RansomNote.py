@@ -1,3 +1,5 @@
+from collections import Counter
+
 def canConstruct(ransomNote: str, magazine: str):
     
     if len(ransomNote) > len(magazine):
